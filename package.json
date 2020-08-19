@@ -1,0 +1,24 @@
+{
+  "name": "graphql-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec 'ts-node' src/index.ts localhost 4000"
+  },
+  "author": "Mauro Ocorso",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.7",
+    "@types/node": "10.12.18",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "nanoid": "^3.1.12",
+    "ts-node": "8.0.1",
+    "typescript": "3.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  }
+}
